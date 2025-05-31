@@ -41,6 +41,55 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 p-4 sm:p-6 rounded-xl">
             <img
+              src="/thumbnails/Nikita Interview.jpg"
+              alt="Nikita Interview"
+              className="w-lg object-cover rounded-lg shadow-md"
+            />
+            <div className="text-center sm:text-left">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-3 text-gray-800">
+                Nikita Dhawan
+              </h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                May 19, 2025 – In this episode, we spoke with Nikita Dhawan, a
+                PhD student at the University of Toronto, about her
+                groundbreaking discoveries in federated learning through FedFish
+                and connecting the medical industry with AI through NATURAL. We
+                explored her expertise in federated learning and its
+                improvements versus the old, and we journeyed with her through
+                her passion of improving medical efficiency using LLMs to
+                interpret texts on medical forums.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 p-4 sm:p-6 rounded-xl">
+            <img
+              src="/thumbnails/Zeqi Interview.png"
+              alt="Zeqi Interview"
+              className="w-lg object-cover rounded-lg shadow-md"
+            />
+            <div className="text-center sm:text-left">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-3 text-gray-800">
+                Zeqi Xiao
+              </h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                April 22, 2025 – In this episode, I spoke with Zeqi Xiao, a PhD
+                researcher at MMLab@NTU, about his groundbreaking work on{" "}
+                <a
+                  href="https://xizaoqu.github.io/worldmem/"
+                  className="text-blue-600 hover:text-blue-700 transition-colors"
+                >
+                  WORLDMEM
+                </a>
+                , a framework for long-term world simulation with memory. We
+                explored how generative models are evolving to not just imagine,
+                but remember and build coherent virtual worlds over time.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 p-4 sm:p-6 rounded-xl">
+            <img
               src="/thumbnails/Eric Interview.png"
               alt="Eric Interview"
               className="w-lg object-cover rounded-lg shadow-md"
@@ -70,32 +119,6 @@ export default function Home() {
                 </a>{" "}
                 (yes, really). We talk about his upcoming event on April 25th,
                 with 4,000 spectators at the LA Center Studios.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 p-4 sm:p-6 rounded-xl">
-            <img
-              src="/thumbnails/Zeqi Interview.png"
-              alt="Zeqi Interview"
-              className="w-lg object-cover rounded-lg shadow-md"
-            />
-            <div className="text-center sm:text-left">
-              <h3 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-3 text-gray-800">
-                Zeqi Xiao
-              </h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                April 22, 2025 – In this episode, I spoke with Zeqi Xiao, a PhD
-                researcher at MMLab@NTU, about his groundbreaking work on{" "}
-                <a
-                  href="https://xizaoqu.github.io/worldmem/"
-                  className="text-blue-600 hover:text-blue-700 transition-colors"
-                >
-                  WORLDMEM
-                </a>
-                , a framework for long-term world simulation with memory. We
-                explored how generative models are evolving to not just imagine,
-                but remember and build coherent virtual worlds over time.
               </p>
             </div>
           </div>
